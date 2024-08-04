@@ -1,0 +1,4 @@
+name: nbm_static
+recipe: lamp
+config:
+  webroot: .

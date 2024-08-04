@@ -1,0 +1,49 @@
+/**
+ * CSS File Used for storing the media queries
+ */
+
+@media screen and (max-width: 767px){
+  /* General */
+  a.logo {
+    margin-left: 15px;
+  }
+  /* Donate Modal */
+  .col-lg-6.border-right {
+    margin-bottom: 20px;
+  }
+  /* Title Vignette Related */
+  .line_under .line_center{
+    width: 250px;
+  }
+  .line_under .line_center:after{
+    left: 45.7%;
+  }
+  /* Menu Related */
+  header#navbar ul.menu.nav.navbar-nav{
+    float: none;
+  }
+  header#navbar .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  /*Gallery page*/
+  nav#block-gallerymenu ul.menu.nav{
+    width: 100%;
+  }
+  /* Footer */
+  .footer-wrapper .copyright-info,
+  .footer-wrapper .social-info,
+  .footer-wrapper .creator-info {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: -15px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  /* Contact Us Page */
+  aside#sidebar-second {
+    float: right;
+  }
+}
